@@ -1,0 +1,50 @@
+/* Updated Styles for the Form */
+body{
+    background-color: aqua;
+}
+#worker-login-form {
+    background-color: #f9f8f8;
+    padding: 50px;
+    border-radius: 15px;
+    width: 400px; /* Increased width */
+    height: auto;
+    
+    /* Center the form and fix it on the page */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    /* Optional box shadow for better visibility */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Ensures the form stays above other elements */
+}
+
+#worker-login-form input {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#worker-login-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#worker-login-form button:hover {
+    background-color: #0056b3; /* Change color on hover */
+}
+
+
+  
